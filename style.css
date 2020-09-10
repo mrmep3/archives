@@ -137,8 +137,6 @@ table {
 	width: 50px;
 	height: 105px;
 	position: absolute;
-	left: 125px;
-	bottom: 10px;
 }
 .car {
 	background: url('./image/player2.png') center / cover no-repeat;
@@ -164,4 +162,35 @@ table {
 	height: 50px;
 	background-color: #fff;
 	left: 145px;
+}
+
+.start {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	padding: 1.5rem 0;
+	text-align: center;
+	z-index: 100;
+	color: #fff;
+	font-size: 1.2rem;
+	background-color: #000;
+	font-family: sant-serif;
+	font-weight: 700;
+}
+
+.score {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #000;
+	padding: 1.2rem 0;
+	z-index: 100;
+	font-size: 1rem;
+	color: tomato;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 500;
 }
